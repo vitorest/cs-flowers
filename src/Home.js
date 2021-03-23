@@ -15,7 +15,7 @@ import Navlogo from './logo1.png';
 import { useRef } from 'react';
 
 function Home() {
-  const executeScroll = () => scrollToRef(myRef);
+  // const executeScroll = () => scrollToRef(myRef);
   const scrollToRef = (ref) => window.scrollTo(0, ref.current.offsetTop);
   const myRef = useRef();
 
