@@ -12,8 +12,6 @@
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
     "babel": "^6.23.0",
-    "bootstrap": "^4.6.0",
-    "bootstrap4": "^0.0.1-security",
     "file-loader": "^6.2.0",
     "google-maps-react": "^2.0.6",
     "jquery": "^3.6.0",

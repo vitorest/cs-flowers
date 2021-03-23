@@ -1,170 +1,171 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+/* Mobile */
+header {
+  display: none;
+  padding: 32px;
+}
 
-.header {
+header img {
+  height: 100px;
+}
+
+.hero {
   display: flex;
-  flex-direction: row;
+  height: calc(100vh + 60px);
 }
 
-.nav-items {
-  margin-left: 87vh;
-  margin-top: 2vh;
+.hero > .hero-1 {
+  display: none;
+  flex: 2;
 }
 
-.nav-logo {
-  width: 10vh;
-  margin: 1rem;
+.hero > .hero-3 {
+  display: none;
+  flex: 1;
 }
 
-.logo-background {
-  width: 110%;
+.hero > .hero-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  padding: 16px;
+}
+
+.hero > .hero-2 > nav > ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+.hero > .hero-2 > nav > ul button {
+  margin: 0 8px;
+  padding: 4px 20px;
+  font-size: 12px;
+  color: white;
+  border: none;
+  border-radius: 16px;
+  background-color: #525252;
+}
+
+.hero > .hero-2 > img {
+  max-width: unset;
+  width: 300px;
+  margin-top: 30px;
+  margin-bottom: -24px;
   filter: drop-shadow(0px 6px 6px rgba(70, 70, 70, 0.75));
-  margin-top: -70rem;
-  margin-left: -30rem;
-  position: relative;
-  z-index: 2;
 }
 
-.green-background {
-  margin-left: 80vh;
-  fill: rgba(45, 122, 44, 0.3);
-  margin-top: -8rem;
-  margin-bottom: 30vh;
-  z-index: -2;
+.hero > .hero-2 > p {
+  max-width: 400px;
+  padding: 18px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 24px;
+  letter-spacing: 0.22em;
+  color: #333333;
+  text-align: center;
 }
 
 .services {
-  width: 100%;
-  height: auto;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  flex-flow: wrap;
+  padding: 0 50px;
 }
 
-.text-properties {
-  width: 420px;
-  font-family: Montserrat;
+.services > div {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 100px;
+}
+
+/* Title */
+.services > div > .service-text > div {
+  margin-bottom: 16px;
+  font-size: 18px;
   font-weight: 600;
-  font-size: 12px;
-  line-height: 36px;
-  letter-spacing: 0.22em;
-  color: #333333;
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
-.img-left {
-  border-radius: 34px;
-  width: 257px;
-  height: 321px;
-  filter: drop-shadow(0px 6px 6px rgba(0, 0, 0, 0.35));
+/* Description */
+.services > div > .service-text > p {
+  margin-bottom: 16px;
+  font-size: 14px;
 }
 
-.img-right {
-  width: 478px;
-  height: 294px;
+.services > div > .service-img > img {
   border-radius: 34px;
   filter: drop-shadow(0px 6px 6px rgba(0, 0, 0, 0.35));
 }
 
-.section-1 {
-  display: flex;
-}
-.section-text {
-  margin: 100px;
-}
-
-.section-2 {
-  display: flex;
-}
-.section-2-text {
-  margin: 100px;
+/* Tablet */
+@media (min-width: 480px) {
+  .hero > .hero-2 > img {
+    width: 500px;
+  }
 }
 
-.section-3 {
-  display: flex;
+/* Desktop */
+@media (min-width: 1024px) {
+  header,
+  .hero > .hero-1,
+  .hero > .hero-3 {
+    display: block;
+  }
+
+  .hero {
+    position: relative;
+    top: -164px;
+    height: 800px;
+    max-width: 1200px;
+    margin: auto;
+  }
+
+  .hero > .hero-2 {
+    width: 650px;
+    padding: 60px;
+    background-color: rgba(45, 122, 44, 0.3);
+  }
+
+  .hero > .hero-2 > nav > ul button {
+    padding: 4px 16px 4px 40px;
+    font-size: 14px;
+  }
+
+  .hero > .hero-2 > img {
+    width: 900px;
+    margin-left: -392px;
+    margin-top: -60px;
+    margin-bottom: -150px;
+  }
+
+  .hero > .hero-2 > p {
+    padding: 0;
+    text-align: left;
+  }
+
+  .services {
+    max-width: 1200px;
+    margin: auto;
+  }
+
+  .services > div {
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .services > div:nth-child(even) {
+    flex-direction: row-reverse;
+  }
+
+  .services > div > .service-img,
+  .services > div > .service-text {
+    flex: 1;
+  }
+
+  .services > div > .service-img {
+    text-align: center;
+  }
+
+  .services > div > .service-img > img {
+    width: 300px;
+  }
 }
-
-.section-4 {
-  display: flex;
-}
-
-/*
-
-.text-right-1 {
-  align-items: center;
-  font-family: Montserrat;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 15px;
-  letter-spacing: 0.04em;
-  text-transform: uppercase;
-}
-
-.text-left-1 {
-  align-items: center;
-  font-family: Montserrat;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 15px;
-  letter-spacing: 0.04em;
-  text-transform: uppercase;
-}
-
-.text-right-2 {
-  font-family: Montserrat;
-  font-style: normal;
-  font-weight: 300;
-  font-size: 12px;
-  line-height: 15px;
-  letter-spacing: 0.04em;
-  text-transform: uppercase;
-  margin-top: 10em;
-}
-
-.img-right-1 contem também a 2ºimagem da direita, bad targeting..{
-  display: flex;
-  border-radius: 34px;
-  width: 257px;
-  height: 321px;
-  margin-left: 200px;
-  filter: drop-shadow(0px 6px 6px rgba(0, 0, 0, 0.35));
-}
-
-.img-left-2 {
-  width: 478px;
-  height: 294px;
-  border-radius: 34px;
-  margin-right: 200px;
-  filter: drop-shadow(0px 6px 6px rgba(0, 0, 0, 0.35));
-  margin-bottom: 10em;
-}
-
-    ??? lol...
-.img-left-2 {
-  margin-top: 10em;
-  margin-bottom: 10em;
-}
-
-.img-right-2 {
-  border-radius: 34px;
-  width: 257px;
-  height: 321px;
-  margin-left: 200px;
-  filter: drop-shadow(0px 6px 6px rgba(0, 0, 0, 0.35));
-  align-items: center;
-  margin-top: -7em;
-} */
-
-/* Ver porque é que os media queries não estão a funcionar
-
-@media only screen
-  and (min-device-width: 400px)
-  and (max-device-width: 480px)
-  and (-webkit-min-device-pixel-ratio: 2) {
-
-    .logo-background {
-      width: 30px;
-    }
-} */

@@ -1,9 +1,5 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { MDBRow, MDBCol, MDBContainer } from 'mdbreact';
-
-import { Carousel } from 'bootstrap';
-import { auto } from '@popperjs/core';
-import { fix } from 'prelude-ls';
 
 function CarouselPage() {
   return (
