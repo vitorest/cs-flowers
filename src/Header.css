@@ -1,23 +1,20 @@
 .nav-items {
-display: flex;
-flex-direction: row;
-align-items: center;
-margin-left: 990px;
-margin-right: 400px;
-justify-content: space-between;
-margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 990px;
+  margin-right: 400px;
+  justify-content: space-between;
+  margin-top: 20px;
 }
 
- /* opção 1
+/* opção 1
 
  fazer retangulo verde no div para compensar
 
  opção 2
 
  fazer green background dentro da nav lol...*/
-
-
-
 
 /* .button-1 {
 background: inherit;

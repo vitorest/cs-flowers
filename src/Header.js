@@ -1,5 +1,5 @@
-import React from 'react'
-import "./Header.css";
+import React from 'react';
+import './Header.css';
 
 function Header() {
   return (
@@ -8,7 +8,7 @@ function Header() {
     <button className="w3-btn w3-round-xxlarge">Contacts</button>
     <button className="w3-btn w3-round-xxlarge">Find us</button> */}
     </div>
-  )
+  );
 }
 
-export default Header
+export default Header;
