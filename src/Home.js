@@ -81,8 +81,8 @@ function Home() {
             {/* ACOMPANHAMO-LO, SEMPRE FOCADO NOS SEUS SONHOS */}
             <p>
               {' '}
-              During all the process with us, you'll have all the support, in
-              every stage of your experience with our team.
+              During your journey with us, we asure you all the support, in
+              every single stage of your experience with our team.
             </p>
             {/* <p>Durante todo o seu percurso conosco, terá todo o acompanhamento em todas as fases da sua experiência</p> */}
           </div>
@@ -98,8 +98,8 @@ function Home() {
             </div>
             {/* <h4>AJUDAMOS A REALIZA-LOS, ATRAVÉS DE UM PLANEAMENTO ESPECIALIZADO PARA O SEU CASAMENTO.</h4> */}
             <p>
-              From the bouquet selection to your dream wedding party
-              organization, CS Flowers takes care of everything to meet your expectations.
+              From the Bouquet selection to your dream wedding party
+              organization, CS Flowers takes care of everything. We will meet your expectations!
             </p>
 
           </div>
@@ -110,10 +110,10 @@ function Home() {
 
         <div>
           <div className="service-text">
-            <div>WE GO ALONG WITH YOU, ALWAYS FOCUSED ON YOUR DREAMS.</div>
+            <div>GOING ALONG WITH YOU ON DAY TO DAY SURPRISES AND OFFERS TO YOUR LOVED ONES .</div>
             <p>
               WE CREATE YOUR GIFT, SPECIALY DEVELOPED TO THE OCCASION, IN ALL
-              OCASIONS.
+              OCASIONS!
             </p>
           </div>
           <div className="service-img">
@@ -127,9 +127,9 @@ function Home() {
             {/* <h4>NÃO DEIXE DE SURPREENDER QUEM AMA POR FALTA DE TEMPO.</h4> */}
             <p>
               Want to surprise someone that you love but dont have time? Dont
-              worry! Our team takes care of everything. We idialize, create and
-              write down your message. Then? We deliver wherever you want. *
-              (consult prizes at store).
+              worry! Our team takes care of everything. We idealize, create and
+              write down your specific message. Then? We deliver wherever you want. *
+              (consult the store for long distance spots).
             </p>
             {/* <p>Quer surpreender alguem que ama mas não tem tempo? não se preocupe! A nossa equipa trata de tudo.
               Idealizamos, criamos e até personalizamos a sua mensagem. Depois? Entregamos na morada que desejar! * (preço consoante (varia) a localização</p> */}
