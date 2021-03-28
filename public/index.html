@@ -39,7 +39,7 @@
 
     <div class="mapbox-container">
       <div class="overlay" onClick="style.pointerEvents='none'"></div>
-      <div id="map" style="max-height: 200px; height: 200px"></div>
+      <div id="map" ></div>
 
       <style>
         body {
@@ -47,9 +47,8 @@
           padding: 0;
         }
         #map {
-          position: relative;
-          top: 26.5rem;
           z-index: 2;
+          height: 400px;
         }
         .overlay {
           background: transparent;
@@ -66,7 +65,7 @@
           container: 'map', // container ID
           style: 'mapbox://styles/mapbox/dark-v10', // style URL
           center: [-16.91837, 32.65277], // starting position [lng, lat]
-          zoom: 14, // starting zoom
+          zoom: 10 // starting zoom
         });
         var marker = new mapboxgl.Marker({
           color: '#5f5f5f',
@@ -74,7 +73,6 @@
         })
           .setLngLat([-16.91837, 32.65277])
           .addTo(map);
-        // document.getElementById("index").style.alignContent = "space-between";
       </script>
     </div>
   </body>

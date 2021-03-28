@@ -95,6 +95,8 @@ header img {
   filter: drop-shadow(0px 6px 6px rgba(0, 0, 0, 0.35));
 }
 
+/* Footer */
+
 /* Tablet */
 @media (min-width: 480px) {
   .hero > .hero-2 > img {
@@ -127,6 +129,8 @@ header img {
   .hero > .hero-2 > nav > ul button {
     padding: 4px 16px 4px 40px;
     font-size: 14px;
+    z-index: 4;
+    position: relative;
   }
 
   .hero > .hero-2 > img {
@@ -167,5 +171,8 @@ header img {
 
   .services > div > .service-img > img {
     width: 300px;
+  }
+  button:focus {
+    outline: 0;
   }
 }
